@@ -7,3 +7,6 @@
 [submodule "plugins/redmine_slack"]
 	path = plugins/redmine_slack
 	url = https://github.com/sciyoshi/redmine-slack.git
+[submodule "plugins/updated_overdue"]
+	path = plugins/updated_overdue
+	url = https://github.com/Propheris/updated_overdue.git

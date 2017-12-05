@@ -10,3 +10,6 @@
 [submodule "plugins/updated_overdue"]
 	path = plugins/updated_overdue
 	url = https://github.com/Propheris/updated_overdue.git
+[submodule "public/themes/documas"]
+	path = public/themes/documas
+	url = https://github.com/Propheris/redmine-documas-theme.git

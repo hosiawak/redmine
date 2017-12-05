@@ -1,3 +1,6 @@
 [submodule "plugins/billable_time"]
 	path = plugins/billable_time
 	url = https://github.com/Propheris/billable_time.git
+[submodule "plugins/redmine_auto_watch"]
+	path = plugins/redmine_auto_watch
+	url = https://github.com/mephi-ut/redmine_auto_watch.git

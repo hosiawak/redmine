@@ -4,3 +4,6 @@
 [submodule "plugins/redmine_auto_watch"]
 	path = plugins/redmine_auto_watch
 	url = https://github.com/mephi-ut/redmine_auto_watch.git
+[submodule "plugins/redmine_slack"]
+	path = plugins/redmine_slack
+	url = https://github.com/sciyoshi/redmine-slack.git

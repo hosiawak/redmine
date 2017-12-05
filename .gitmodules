@@ -1,0 +1,3 @@
+[submodule "plugins/billable_time"]
+	path = plugins/billable_time
+	url = https://github.com/Propheris/billable_time.git

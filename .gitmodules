@@ -1,15 +1,15 @@
 [submodule "plugins/billable_time"]
 	path = plugins/billable_time
-	url = https://github.com/Propheris/billable_time.git
+	url = git@github.com:Propheris/billable_time.git
 [submodule "plugins/redmine_auto_watch"]
 	path = plugins/redmine_auto_watch
-	url = https://github.com/mephi-ut/redmine_auto_watch.git
+	url = git@github.com:mephi-ut/redmine_auto_watch.git
 [submodule "plugins/redmine_slack"]
 	path = plugins/redmine_slack
-	url = https://github.com/sciyoshi/redmine-slack.git
+	url = git@github.com:sciyoshi/redmine-slack.git
 [submodule "plugins/updated_overdue"]
 	path = plugins/updated_overdue
-	url = https://github.com/Propheris/updated_overdue.git
+	url = git@github.com:Propheris/updated_overdue.git
 [submodule "public/themes/documas"]
 	path = public/themes/documas
-	url = https://github.com/Propheris/redmine-documas-theme.git
+	url = git@github.com:Propheris/redmine-documas-theme.git

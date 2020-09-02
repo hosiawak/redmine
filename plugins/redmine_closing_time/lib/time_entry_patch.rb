@@ -8,15 +8,15 @@ module TimeEntryPatch
     base.class_eval do
       unloadable
 
-      validate :issue_is_open
+      validate :issue_is_invoiced
     end
   end
 
   module ClassMethods; end
 
   module InstanceMethods
-    def issue_is_open
-      errors.add :base, :issue_closed, message: "Cannot add time to a closed issue" if issue.closed?
+    def issue_is_invoiced
+      errors.add :base, :issue_closed, message: "Cannot add time to an issue that is already invoiced" if issue.invoiced?
     end
   end
 end

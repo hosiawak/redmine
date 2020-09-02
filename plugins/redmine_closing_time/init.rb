@@ -1,7 +1,7 @@
 require 'redmine'
 
-require_dependency 'issue_patch'
-require_dependency 'time_entry_patch'
+require_dependency 'redmine_closing_time/issue_patch'
+require_dependency 'redmine_closing_time/time_entry_patch'
 
 Redmine::Plugin.register :redmine_closing_time do
   name 'Redmine Closing Time'
@@ -10,5 +10,5 @@ Redmine::Plugin.register :redmine_closing_time do
   version '0.1.0'
 end
 
-Issue.send(:include, IssuePatch)
-TimeEntry.send(:include, TimeEntryPatch)
+Issue.send(:include, RedmineClosingTime::IssuePatch)
+TimeEntry.send(:include, RedmineClosingTime::TimeEntryPatch)

@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/mimemagicrb/mimemagic.git
+  revision: 01f92d86d15d85cfd0f20dabd025dcbd36a8a60f
+  ref: 01f92d86d15d85cfd0f20dabd025dcbd36a8a60f
+  specs:
+    mimemagic (0.3.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -75,7 +82,6 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mimemagic (0.3.2)
     mini_mime (1.0.0)
     mini_portile2 (2.1.0)
     minitest (5.10.3)
@@ -175,7 +181,7 @@ DEPENDENCIES
   jquery-rails (~> 3.1.4)
   mail (~> 2.6.6)
   mime-types (~> 3.0)
-  mimemagic
+  mimemagic!
   minitest
   mocha
   mysql2 (~> 0.4.6)
@@ -201,4 +207,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   1.16.0
+   1.17.3

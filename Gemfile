@@ -17,7 +17,7 @@ gem "protected_attributes"
 gem "actionpack-xml_parser"
 gem "roadie-rails", "~> 1.1.1"
 gem "roadie", "~> 3.2.1"
-gem "mimemagic"
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 gem "mail", "~> 2.6.6"
 
 gem "nokogiri", (RUBY_VERSION >= "2.1" ? "~> 1.7.2" : "~> 1.6.8")
